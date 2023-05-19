@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simple Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="intro py-3 bg-white text-center">
+  <div class="container">
+    <h2 class="text-primary display-3 my-4">Simple Quiz</h2>
+  </div>
+</div>
+
+
+<div class="result py-4 d-none bg-light text-center">
+  <div class="container lead">
+    <p>You've answered <span class="text-primary display-4 p-3">0%</span> right.</p>
+  </div>
+</div>
+
+
+<div class="quiz py-4 bg-primary">
+  <div class="container">
+    <h2 class="my-5 text-white">Let's start</h2>
+
+    <form class="quiz-form text-light">
+      <div class="my-5">
+        <p class="lead font-weight-normal">1. How to describe Headings in html?</p>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q1" value="A" checked>
+          <label class="form-check-label">With a p tag</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q1" value="B">
+          <label class="form-check-label">You will have to use a h1 h2 h3 h4 h5 or h6 tag</label>
+        </div>
+      </div>
+      <div class="my-5">
+        <p class="lead font-weight-normal">2. What CSS Property can be used to change the Backgroundcolor of a html-element?</p>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q2" value="A" checked>
+          <label class="form-check-label">Property called color</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q2" value="B">
+          <label class="form-check-label">Property called background</label>
+        </div>
+      </div>
+      <div class="my-5">
+        <p class="lead font-weight-normal">3. What tag is needed to load Javascript to your website?</p>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q3" value="A" checked>
+          <label class="form-check-label">Style tag</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q3" value="B">
+          <label class="form-check-label">Script tag</label>
+        </div>
+      </div>
+      <div class="my-5">
+        <p class="lead font-weight-normal">4. Which Hexcode would you use in css to get black as color?</p>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q4" value="A" checked>
+          <label class="form-check-label">#ffffff</label>
+        </div>
+        <div class="form-check my-2 text-white-50">
+          <input type="radio" name="q4" value="B">
+          <label class="form-check-label">#000000</label>
+        </div>
+      </div>
+      <div class="text-center">
+        <input type="submit" class="btn btn-light">
+      </div>
+    </form>
+
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
